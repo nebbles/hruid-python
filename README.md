@@ -67,4 +67,4 @@ poetry run tests
 
 ## License
 
-No license has been chosen yet for this repository.
+[GNU GPLv3](./LICENSE)
