@@ -11,16 +11,23 @@
 
 Install
 ```
-???
+pip install hruid
 ```
 
-Use
+Use in Python code
 ```python
 import hruid
 
 generator = hruid.Generator()
 phrase = generator.random()
 print(phrase)
+```
+
+Use on the command line
+```
+$ hruid generate
+
+11-suspicious-owls-consume-eagerly
 ```
 
 ## Overview
