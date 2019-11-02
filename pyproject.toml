@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "hruid"
+version = "0.0.1"
+description = "Human Readable Unique Identifiers for Python"
+authors = ["nebbles"]
+readme = "README.md"
+homepage = "https://github.com/nebbles/hruid-python"
+classifiers=[  # https://pypi.org/classifiers/
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities",
+]
+packages = [
+    { include = "hruid" },
+]
+
+[tool.poetry.scripts]
+hruid = 'hruid.cli:main'
+tests = 'scripts:run_tests'
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+black = { version = "*", allows-prereleases = true }
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
