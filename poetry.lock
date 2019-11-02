@@ -72,8 +72,8 @@ python-versions = "*"
 version = "1.4.0"
 
 [metadata]
-content-hash = "99f5cf5a03817aa00470c57ad90a594ed056266b5a333483b3ccb71874b697d8"
-python-versions = "^3.6"
+content-hash = "7b7a389f0cd55473620c97b070294ddfc2fb4a9be1cfae5976626dbbc655807f"
+python-versions = "^3.7"
 
 [metadata.hashes]
 appdirs = ["9e5896d1372858f8dd3344faf4e5014d21849c756c8d5701f78f8a103b372d92", "d8b24664561d0d34ddfaec54636d502d7cea6e29c3eaf68f3df6180863e2166e"]
